@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AscendingAndDescending.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Assignments/AscendingAndDescending.java">
+      <file leaf-file-name="RockPaperScissors.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Assignments/RockPaperScissors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="-153">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -47,6 +47,9 @@
         <option value="$PROJECT_DIR$/src/Debugging/FixDebugFive1.java" />
         <option value="$PROJECT_DIR$/src/Assignments/AscendingAndDescending.java" />
         <option value="$PROJECT_DIR$/src/Debugging/FixDebugFive2.java" />
+        <option value="$PROJECT_DIR$/src/Assignments/CondoSales.java" />
+        <option value="$PROJECT_DIR$/src/Assignments/CellPhoneService.java" />
+        <option value="$PROJECT_DIR$/src/Assignments/RockPaperScissors.java" />
       </list>
     </option>
   </component>
@@ -60,6 +63,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,21 +99,12 @@
               <item name="Chapter-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter-5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Debugging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter-5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,7 +127,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeekDay">
+  <component name="RunManager" selected="Application.RockPaperScissors">
+    <configuration name="CellPhoneService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.CellPhoneService" />
+      <module name="Chapter-5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CondoSales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.CondoSales" />
+      <module name="Chapter-5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignments.EvenOdd" />
       <module name="Chapter-5" />
@@ -142,35 +161,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FixDebugFive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Debugging.FixDebugFive2" />
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.RockPaperScissors" />
       <module name="Chapter-5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Debugging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FixDebugFive3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Debugging.FixDebugFive3" />
-      <module name="Chapter-5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Debugging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FixDebugFive4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Debugging.FixDebugFive4" />
-      <module name="Chapter-5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Debugging.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,19 +225,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FixDebugFive2" />
-      <item itemvalue="Application.FixDebugFive3" />
-      <item itemvalue="Application.FixDebugFive4" />
       <item itemvalue="Application.EvenOdd" />
       <item itemvalue="Application.WeekDay" />
+      <item itemvalue="Application.CondoSales" />
+      <item itemvalue="Application.CellPhoneService" />
+      <item itemvalue="Application.RockPaperScissors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissors" />
+        <item itemvalue="Application.CellPhoneService" />
+        <item itemvalue="Application.CondoSales" />
         <item itemvalue="Application.WeekDay" />
         <item itemvalue="Application.EvenOdd" />
-        <item itemvalue="Application.FixDebugFive4" />
-        <item itemvalue="Application.FixDebugFive3" />
-        <item itemvalue="Application.FixDebugFive2" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +256,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1454" height="867" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -270,7 +266,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -293,6 +289,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Assignments/AscendingAndDescending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Examples/Age_InsultGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -311,9 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,16 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Examples/RandomGuess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -414,17 +401,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Examples/WeekDay.java">
+    <entry file="file://$PROJECT_DIR$/src/Assignments/CondoSales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assignments/CellPhoneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Examples/WeekDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Examples/RandomGuess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Assignments/AscendingAndDescending.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="51">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assignments/RockPaperScissors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
