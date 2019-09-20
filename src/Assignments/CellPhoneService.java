@@ -22,32 +22,7 @@ public class CellPhoneService {
         System.out.println("how many gigabytes of data do you want for your plan?");
         gigabytes = input.nextInt();
 
-        if(gigabytes <= 0)
-        {
-            if (minutes <= 500 && texts == 0)
-            {
-                System.out.println("Your parameters match with Plan A! \n");
-            }
-            else if (minutes <= 500 && texts > 100)
-            {
-                System.out.println("Your parameters match with Plan B! \n");
-            }
-            else if (minutes >= 500 && texts <= 100)
-            {
-                System.out.println("Your parameters match with Plan C! \n");
-            }
-            else if (minutes >= 500 && texts >= 100)
-            {
-                System.out.println("Your parameters match with Plan D! \n");
-            }
-        } else if (gigabytes <= 2)
-        {
-            System.out.println("Your parameters match with Plan E! \n");
-        }
-        else if (gigabytes > 2)
-        {
-            System.out.println("Your parameters match with Plan F! \n");
-        }
+        bestPlanForCustomer(minutes, texts, gigabytes);
 
         System.out.println("What plan would you like to purchase? \n1 A: less then 500 min, no text, no data, $49 " +
                 "\n2 B: less then 500 min, unlimited text, no data $55 \n3 C: more then 500 min, 100 texts, no data $61 " +
@@ -81,6 +56,36 @@ public class CellPhoneService {
         }
         System.out.println("Your bill is " + bill + " dollars have a nice day!");
 
+        }
+
+        public static void bestPlanForCustomer(int minutes, int texts, int gigabytes)
+        {
+            if(gigabytes <= 0)
+            {
+                if (minutes <= 500 && texts == 0)
+                {
+                    System.out.println("Your parameters match with Plan A! \n");
+                }
+                else if (minutes <= 500 && texts > 100)
+                {
+                    System.out.println("Your parameters match with Plan B! \n");
+                }
+                else if (minutes >= 500 && texts <= 100)
+                {
+                    System.out.println("Your parameters match with Plan C! \n");
+                }
+                else if (minutes >= 500 && texts >= 100)
+                {
+                    System.out.println("Your parameters match with Plan D! \n");
+                }
+            } else if (gigabytes <= 2)
+            {
+                System.out.println("Your parameters match with Plan E! \n");
+            }
+            else if (gigabytes > 2)
+            {
+                System.out.println("Your parameters match with Plan F! \n");
+            }
         }
 
     }
